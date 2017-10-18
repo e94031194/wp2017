@@ -49,6 +49,28 @@
 		-webkit-text-size-adjust: none;
 	}
 
+.box1, .box2 {
+    padding: 10px;
+    background-color: #EEE;
+    color: #666;
+    height: 160px;
+}
+
+.boxWrap {
+    width: 240px;
+    -moz-transition: margin-top .5s ease-out;
+    -webkit-transition: margin-top .5s ease-out;
+    -o-transition: margin-top .5s ease-out;
+    -ms-transition: margin-top .5s ease-out;
+}
+.boxWrap:hover{margin-top: -179px;}
+.mask {
+    height: 180px;
+    overflow: hidden;
+    border: solid 1px #999;
+    float: left;
+    margin: -1px 0 0 -1px;
+}
 /* Box Model */
 
 	*, *:before, *:after {
